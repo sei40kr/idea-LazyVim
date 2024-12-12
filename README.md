@@ -200,6 +200,19 @@ source /path/to/idea-LazyVim/init.vim
 | `<leader>wd` | Delete Window      |
 | `<leader>wm` | Toggle Maximize    |
 
+## Tips
+
+`Increment Selection` is bound to `<c-space>`, but many CJK users use this key to switch input methods.
+In that case, please rebind it to another key.
+
+```vim
+let g:WhichKeyDesc_increment_selection = "<leader>v Increment Selection"
+nmap <leader>v <Action>(EditorSelectWord)
+xmap <leader>v <Action>(EditorSelectWord)
+let g:WhichKeyDesc_decrement_selection = "<leader>V Decrement Selection"
+nmap <leader>V <Action>(EditorUnSelectWord)
+```
+
 ## Special Thanks
 
 - [mikeslattery/.idea-lazy.vim](https://gist.github.com/mikeslattery/d2f2562e5bbaa7ef036cf9f5a13deff5)
