@@ -40,8 +40,8 @@ source /path/to/idea-LazyVim/init.vim
 | `<leader>.`  | New Scratch Buffer        |
 | `<leader>S`  | Select Scratch Buffer     |
 | `<leader>n`  | Notification History      |
-| <bs>         | Decrement Selection       |
-| <c-space>    | Increment Selection       |
+| `<bs>`       | Decrement Selection       |
+| `<c-space>`  | Increment Selection       |
 
 ### LSP
 
