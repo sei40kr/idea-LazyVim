@@ -17,6 +17,7 @@ set formatoptions=tcqj
 set listchars=tab:>\ ,trail:-,nbsp:+
 set shortmess=filnxtToOF
 
+set easymotion
 set NERDTree
 set surround
 set commentary
