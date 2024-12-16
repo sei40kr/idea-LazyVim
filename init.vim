@@ -134,6 +134,9 @@ nmap <leader>- <c-w>s
 " Split Window Right
 let g:WhichKeyDesc_split_window_right = "<leader>| Split Window Right"
 nmap <leader><bar> <c-w>v
+" Show diagnostics under the cursor
+let g:WhichKeyDesc_show_diagnostics_under_cursor = "<C-w>d Show diagnostics under the cursor"
+nmap <c-w>d <Action>(ShowErrorDescription)
 " Delete Window
 let g:WhichKeyDesc_windows_delete_window = "<leader>wd Delete Window"
 nmap <leader>wd <Action>(CloseContent)

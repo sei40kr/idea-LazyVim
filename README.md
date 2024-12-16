@@ -190,16 +190,17 @@ source /path/to/idea-LazyVim/init.vim
 
 ### +windows
 
-| Key Binding  | Description        |
-| :----------- | :----------------- |
-| `<c-h>`      | Go to Left Window  |
-| `<c-j>`      | Go to Lower Window |
-| `<c-k>`      | Go to Upper Window |
-| `<c-l>`      | Go to Right Window |
-| `<leader>-`  | Split Window Below |
-| `<leader>\|` | Split Window Right |
-| `<leader>wd` | Delete Window      |
-| `<leader>wm` | Toggle Maximize    |
+| Key Binding  | Description                       |
+| :----------- | :-------------------------------- |
+| `<c-w>d`     | Show diagnostics under the cursor |
+| `<c-h>`      | Go to Left Window                 |
+| `<c-j>`      | Go to Lower Window                |
+| `<c-k>`      | Go to Upper Window                |
+| `<c-l>`      | Go to Right Window                |
+| `<leader>-`  | Split Window Below                |
+| `<leader>\|` | Split Window Right                |
+| `<leader>wd` | Delete Window                     |
+| `<leader>wm` | Toggle Maximize                   |
 
 ## Tips
 
