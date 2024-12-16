@@ -180,6 +180,7 @@ source /path/to/idea-LazyVim/init.vim
 
 | Key Binding  | Description               |
 | :----------- | :------------------------ |
+| `<leader>uC` | Colorscheme with Preview  |
 | `<leader>uL` | Toggle Relative Number    |
 | `<leader>ug` | Toggle Indentation Guides |
 | `<leader>uh` | Toggle Inlay Hints        |

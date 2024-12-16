@@ -309,6 +309,9 @@ nmap <leader>sm <Action>(Bookmarks.Goto)
 " Goto Symbol
 let g:WhichKeyDesc_search_goto_symbol = "<leader>ss Goto Symbol"
 nmap <leader>ss <Action>(GotoSymbol)
+" Colorscheme with Preview
+let g:WhichKeyDesc_ui_colorscheme_with_preview = "<leader>uC Colorscheme with Preview"
+nmap <leader>uC <Action>(ChangeLaf)
 
 " Toggle Database
 let g:WhichKeyDesc_toggle_database = "<leader>D Toggle Database"
