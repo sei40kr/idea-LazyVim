@@ -212,6 +212,18 @@ nnoremap ]b gt
 let g:WhichKeyDesc_move_buffer_next = "]B Move buffer next"
 nnoremap ]B :tabm +1<cr>
 
+" Move to next char
+let g:WhichKeyDesc_move_to_next_char = "f Move to next char"
+map f <Plug>(easymotion-f)
+" Move to prev char
+let g:WhichKeyDesc_move_to_prev_char = "F Move to prev char"
+map F <Plug>(easymotion-F)
+" Move before next char
+let g:WhichKeyDesc_move_to_next_char = "t Move before next char"
+map t <Plug>(easymotion-t)
+" Move before prev char
+let g:WhichKeyDesc_move_to_prev_char = "T Move before prev char"
+map T <Plug>(easymotion-T)
 " EasyMotion
 let g:WhichKeyDesc_easymotion = "s EasyMotion"
 nmap s <Plug>(easymotion-s)
